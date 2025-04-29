@@ -31,7 +31,7 @@ class StatusCog(commands.Cog):
         )
         embed.add_field(name="Ethereal Platform", value=f"```{platform.system()}```", inline=True)
         embed.set_footer(text=config["footer_text"])
-        embed.set_thumbnail(url="https://example.com/your-mage-image.png")  # replace with your asset
+        embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1364191142589235245/1366755125665861723/download20250405152346.png?ex=68121967&is=6810c7e7&hm=6f8ee87c3e24fd36ce5c38706de106c18297a6fc4acf544b92e73a84e8470223&")  # replace with your asset
 
         await interaction.response.send_message(embed=embed)
 
