@@ -76,8 +76,7 @@ async def on_ready():
     logger.info(f"NEW SESSION • {bot.user} started at {bot.start_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
     logger.info("=" * 60)
 
-    arcane_log(f"{bot.user} has awakened the Arcane Grimoire", "magenta", "🔮")
-
+    arcane_log(f"{bot.user} has awakened the Arcane Grimoire", "magenta", "🔮") 
     await asyncio.sleep(2)
     try:
         synced = await bot.tree.sync()
